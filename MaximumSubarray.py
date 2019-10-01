@@ -9,6 +9,3 @@ for i in range(0, T):
         Max = max(Max + X[j], X[j])
         result = max(Max, result)
     print(result)
-
-T = int(input("구슬의 개수 입력 : "))
-N = [int(input("번째 구슬의 번호 : ")) for i in range(T)]
